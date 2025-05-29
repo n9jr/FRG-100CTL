@@ -4,7 +4,8 @@ An ESP32 based hardware controller with Nextion display for the Yaesu FRG-100 re
 This is a controller for the Yaesu FRG-100 receiver.  As a stand alone radio I felt it lacked frequency agility, and this controller provides that functionality.
 
 The files are:
-FRG-100CTL    The Arduino sketch for use in the Arduino IDE to compile the program and upload to the ESP32.
+FRG-100CTL.ino            The Arduino sketch for use in the Arduino IDE to compile the program and upload to the ESP32.
+FRG-100CTL_gerbers.zip    Gerber files for fabricating the PCB.
 
 
 
