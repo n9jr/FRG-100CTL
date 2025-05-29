@@ -18,6 +18,7 @@ FRG-100CTL_BOM.pdf        Bill of Materials
 EasyNextion Files:
 
 trigger.h
+
 calltriggers.h
 
 
