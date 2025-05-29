@@ -15,6 +15,12 @@ FRG-100CTL_Schematic.pdf  Circuit schematic diagram.
 
 FRG-100CTL_BOM.pdf        Bill of Materials
 
+EasyNextion Files:
+
+trigger.h
+calltriggers.h
+
+
 
 
 
