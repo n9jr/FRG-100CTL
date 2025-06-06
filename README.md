@@ -28,8 +28,6 @@ I've created a simple PCB for this project.  The associated files are:
   - FRG-100CTL_Gerbers.zip      These are the Gerber files required to manufacture the PCB
   - FRG-100CTL_Schematic.pdf    The schematic diagram.
   - FRG-100CTL_BOM.pdf          Parts list for the PCB
-
-
-
-
+    
+I created a 3D printed case for this project.  Interested viewers can find details here: https://www.thingiverse.com/thing:7029759
 
