@@ -1,6 +1,9 @@
 # FRG-100CTL
 An ESP32 based hardware controller with Nextion display for the Yaesu FRG-100 receiver.
 
+![FRG100-CTL](https://github.com/user-attachments/assets/46b08680-8708-494b-9c8a-1ac31a9b92f1)
+
+
 This is a controller for the Yaesu FRG-100 receiver.  As a stand alone radio I felt it lacked frequency agility, and this controller provides that functionality.
 
 The controller is based on the ESP32 and uses a 3.5" Nextion display.  To program the ESP32 you will need to install the Arduino IDE.  You will also need to add the EasyNextion library through the Library Manager in the IDE.  Installaton instructions can be found here: https://github.com/Seithan/EasyNextionLibrary.  From the Library Manager choose the Easy Nextion Library and click on install.
