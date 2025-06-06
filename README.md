@@ -10,32 +10,24 @@ The controller is based on the ESP32 and uses a 3.5" Nextion display.  To progra
 
 The EasyNextion library as installed is limited to 50 functions.  I have modified two of the library files trigger.h and calltriggers.cpp and you need to replace the origionals with these.
 
-Under Windows you will find the files at c:\users\<name>\Documents\Arduino\Libraries\Easy_Nextion_Library\src
+Under Windows you will find these files at c:\users\<name>\Documents\Arduino\Libraries\Easy_Nextion_Library\src
+
 For MacOS it is located under Users/<user>/Documents/Arduino/Libraries/Easy_Nextion_Library/src
 
 You will also need to add the ESP32 board and files. 
 
 ![ESP_BoardManager](https://github.com/user-attachments/assets/9c6e06e3-7c43-4ac5-aa96-7dcc969c8481)
 
+To compile the program and upload it to the ESP32 create a folder below the Arduino folder named FrG-100CtL (..\Documents\Arduino\FRG-100CTL).  Then copy the file named FRG-100CTL.ini to that directory.
+
+You will need to program your Nextion display with the screen file that matches your Nextion model number.  The file contains all the screens and button actions.  To load the file copy the .tft file to a FAT32 formatted micro SD card.  It must be the only file on the SD card.  Insert the card, apply power to the board using the Nextion supplied micro USB adapter.  It will load and display a success message.  Remove power, remove the SD card and the display will be ready.
 
 
+I've created a simple PCB for this project.  The associated files are:
 
-
-FRG-100CTL.ino            The Arduino sketch for use in the Arduino IDE to compile the program and upload to the ESP32.
-
-PCB related files:
-
-FRG-100CTL_Gerbers.zip    Gerber files for fabricating the PCB.
-
-FRG-100CTL_Schematic.pdf  Circuit schematic diagram.
-
-FRG-100CTL_BOM.pdf        Bill of Materials
-
-EasyNextion Files:
-
-trigger.h
-
-calltriggers.h
+  - FRG-100CTL_Gerbers.zip      These are the Gerber files required to manufacture the PCB
+  - FRG-100CTL_Schematic.pdf    The schematic diagram.
+  - FRG-100CTL_BOM.pdf          Parts list for the PCB
 
 
 
