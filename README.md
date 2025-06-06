@@ -3,10 +3,14 @@ An ESP32 based hardware controller with Nextion display for the Yaesu FRG-100 re
 
 This is a controller for the Yaesu FRG-100 receiver.  As a stand alone radio I felt it lacked frequency agility, and this controller provides that functionality.
 
-The controller is based on the ESP32 and uses a 3.5" Nextion display.  To program the Nano you will need to install the Arduino IDE.  You will also need to add the EasyNextion library through the Library Manager in the IDE.  Installaton instructions can be found here: https://github.com/Seithan/EasyNextionLibrary The EasyNextion library as installed is limited to 50 functions.  I have modified two of the library files trigger.h and calltriggers.cpp and you need to replace the origionals with these.
+The controller is based on the ESP32 and uses a 3.5" Nextion display.  To program the ESP32 you will need to install the Arduino IDE.  You will also need to add the EasyNextion library through the Library Manager in the IDE.  Installaton instructions can be found here: https://github.com/Seithan/EasyNextionLibrary The EasyNextion library as installed is limited to 50 functions.  I have modified two of the library files trigger.h and calltriggers.cpp and you need to replace the origionals with these.
 
 Under Windows you will find the files at c:\users\<name>\Documents\Arduino\Libraries\Easy_Nextion_Library\src
 For MacOS it is located under Users/<user>/Documents/Arduino/Libraries/Easy_Nextion_Library/src
+
+You will also need to add the ESP32 board and files. 
+![ESP_BoardManager](https://github.com/user-attachments/assets/9c6e06e3-7c43-4ac5-aa96-7dcc969c8481)
+
 
 
 
