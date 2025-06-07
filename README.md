@@ -10,7 +10,7 @@ This is a controller for the Yaesu FRG-100 receiver.  As a stand alone radio I f
 ### Installing the Arduino IDE
 To support non programmers who are inteested in building this project the ability to upload the code to the ESP32DevKitV1 is explained below. You don't need to be a progrqmmer, you just need to follow instructions :)
 
-The controller is based on the ESP32 and uses a 3.5" Nextion display.  To program the ESP32 you will need to install the Arduino IDE.  The Arduino IDE can be downloaded here: https://www.arduino.cc/en/software/ Once installed you will also need to add the Easy Nextion library through the Library Manager in the IDE.  Installaton instructions can be found here: https://github.com/Seithan/EasyNextionLibrary.  From the Library Manager choose the Easy Nextion Library and click to install.
+The controller is based on the ESP32 and uses a 3.5" Nextion display.  To program the ESP32 you will need to install the Arduino IDE.  The Arduino IDE can be downloaded here: https://www.arduino.cc/en/software/ Once installed you will also need to add the Easy Nextion library through the Library Manager in the IDE (**Tools _> Manage Libraries**).  Installaton instructions can be found here: https://github.com/Seithan/EasyNextionLibrary.  From the Library Manager choose the Easy Nextion Library and click to install.
 
 ![EasyNextion](https://github.com/user-attachments/assets/03fbc209-d9d0-411a-84db-3e5e98209fa4)
 
@@ -22,7 +22,7 @@ Under Windows you will find these files at **..\Documents\Arduino\Libraries\Easy
 For MacOS it is located under **/Documents/Arduino/Libraries/Easy_Nextion_Library/src**
 
 ### Installing the ESP32 board files
-You will also need to add the ESP32 board and files. 
+You will also need to add the ESP32 board and files.  These are added from the Boards Manager (**Tools -> Board _> Board Manager**).
 
 ![ESP_BoardManager](https://github.com/user-attachments/assets/9c6e06e3-7c43-4ac5-aa96-7dcc969c8481)
 
