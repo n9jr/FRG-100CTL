@@ -37,6 +37,8 @@ Then select the serial port you will be using to program the board.
 And finally set your upload speed.  I use 115200 as I have had issues connecting at faster speeds.
 ![UploadSpeed](https://github.com/user-attachments/assets/2859f798-eac9-4d8c-a26a-1c27efa59ef8)
 
+At this point you should be able to compile and upload the sketch to the ESP32.
+
 
 ## Display Programming
 You will need to program your Nextion display with the screen file that matches your Nextion model number.  The file contains all the screens and button actions.  To load the file copy the .tft file to a FAT32 formatted micro SD card.  It must be the only file on the SD card.  Insert the card, apply power to the board using the Nextion supplied micro USB adapter.  It will load and display a success message.  Remove power, remove the SD card and the display will be ready.
@@ -52,4 +54,6 @@ I've created a simple PCB for this project.  The associated files are:
   - FRG-100CTL_BOM.pdf          Parts list for the PCB
 ## Enclosure   
 I created a 3D printed case for this project.  Interested viewers can find details here: https://www.thingiverse.com/thing:7029759
+![Front](https://github.com/user-attachments/assets/13e21462-893e-4a4c-943d-9903c40e559c)
+
 
