@@ -33,6 +33,9 @@ To compile the program and upload it to the ESP32 create a folder below the Ardu
 You will need to program your Nextion display with the screen file that matches your Nextion model number.  The file contains all the screens and button actions.  To load the file copy the .tft file to a FAT32 formatted micro SD card.  It must be the only file on the SD card.  Insert the card, apply power to the board using the Nextion supplied micro USB adapter.  It will load and display a success message.  Remove power, remove the SD card and the display will be ready.
 
 ## PCB
+![PCB](https://github.com/user-attachments/assets/81193d44-fe49-467d-bd36-7e04f0c8c0db)
+
+
 I've created a simple PCB for this project.  The associated files are:
 
   - FRG-100CTL_Gerbers.zip      These are the Gerber files required to manufacture the PCB
