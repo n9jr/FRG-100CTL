@@ -27,9 +27,11 @@ You will also need to add the ESP32 board and files.  These are added from the B
 ![ESP_BoardManager](https://github.com/user-attachments/assets/9c6e06e3-7c43-4ac5-aa96-7dcc969c8481)
 
 ## Uploading the code to the ESP32DevKitV1.
-To compile the program and upload it to the ESP32 create a folder below the Arduino folder named FRG-100CTL (..\Documents\Arduino\FRG-100CTL).  Then copy the file named FRG-100CTL.ini to that directory.  Open the FRG-100CTL.ino file.  The first test is does the program compile.  Click on the left arrow icon to validate the program compiles without error. 
+To compile the program and upload it to the ESP32 create a folder below the Arduino folder named FRG-100CTL (**..\Documents\Arduino\FRG-100CTL**).  Then copy the file named FRG-100CTL.ini to that directory.  Open the FRG-100CTL.ino file in the IDE.  The first test is does the program compile.  Click on the left check mark icon to validate the program compiles without error. 
+![Compile](https://github.com/user-attachments/assets/e891efaa-f444-475c-9c5f-a7ced7a82d5a)
 
-You need to tell the IDE the board type we are using.  From the Tools menu select ESP32 DevKit as the board type.
+
+You need to tell the IDE the board type we are using.  From the Tools menu select ESP32 Dev Module as the board type.
 
 ![BoardSelection](https://github.com/user-attachments/assets/a3d07fe9-1e63-4c41-995a-d9dc83381c0b)
 
@@ -41,7 +43,10 @@ And finally set your upload speed.  I use 115200 as I have had issues connecting
 
 ![UploadSpeed](https://github.com/user-attachments/assets/2859f798-eac9-4d8c-a26a-1c27efa59ef8)
 
-At this point you should be able to compile and upload the sketch to the ESP32.
+At this point you should be able to compile and upload the sketch to the ESP32.  
+
+![Upload](https://github.com/user-attachments/assets/90560401-5ad1-449b-b6dd-2aa3bd62160c)
+
 
 
 ## Display Programming
