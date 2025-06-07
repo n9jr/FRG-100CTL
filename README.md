@@ -29,12 +29,15 @@ You will also need to add the ESP32 board and files.
 To compile the program and upload it to the ESP32 create a folder below the Arduino folder named FRG-100CTL (..\Documents\Arduino\FRG-100CTL).  Then copy the file named FRG-100CTL.ini to that directory.  Open the FRG-100CTL.ino file.  The first test is does the program compile.  Click on the left arrow icon to validate the program compiles without error. 
 
 You need to tell the IDE the board type we are using.  From the Tools menu select ESP32 DevKit as the board type.
+
 ![BoardSelection](https://github.com/user-attachments/assets/a3d07fe9-1e63-4c41-995a-d9dc83381c0b)
 
 Then select the serial port you will be using to program the board.
+
 ![PortSelection](https://github.com/user-attachments/assets/313be652-b96e-463c-b9bb-b82ee79ddef1)
 
 And finally set your upload speed.  I use 115200 as I have had issues connecting at faster speeds.
+
 ![UploadSpeed](https://github.com/user-attachments/assets/2859f798-eac9-4d8c-a26a-1c27efa59ef8)
 
 At this point you should be able to compile and upload the sketch to the ESP32.
@@ -54,6 +57,7 @@ I've created a simple PCB for this project.  The associated files are:
   - FRG-100CTL_BOM.pdf          Parts list for the PCB
 ## Enclosure   
 I created a 3D printed case for this project.  Interested viewers can find details here: https://www.thingiverse.com/thing:7029759
+
 ![Front](https://github.com/user-attachments/assets/13e21462-893e-4a4c-943d-9903c40e559c)
 
 
