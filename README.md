@@ -22,7 +22,7 @@ Under Windows you will find these files at **..\Documents\Arduino\Libraries\Easy
 For MacOS it is located under **/Documents/Arduino/Libraries/Easy_Nextion_Library/src**
 
 ### Installing the ESP32 board files
-You will also need to add the ESP32 board and files.  These are added from the Boards Manager (**Tools -> Board _> Board Manager**).
+You will also need to add the ESP32 board and files.  These are added from the Boards Manager (**Tools -> Board -> Board Manager**).
 
 ![ESP_BoardManager](https://github.com/user-attachments/assets/9c6e06e3-7c43-4ac5-aa96-7dcc969c8481)
 
