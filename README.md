@@ -26,8 +26,17 @@ You will also need to add the ESP32 board and files.
 ![ESP_BoardManager](https://github.com/user-attachments/assets/9c6e06e3-7c43-4ac5-aa96-7dcc969c8481)
 
 ## Uploading the code to the ESP32DevKitV1.
-Open the FRG-100CTL.ino file.  The first test is does the program compile.  Click on the left arrow icon to validate the program compiles without error.  
-To compile the program and upload it to the ESP32 create a folder below the Arduino folder named FRG-100CTL (..\Documents\Arduino\FRG-100CTL).  Then copy the file named FRG-100CTL.ini to that directory.
+To compile the program and upload it to the ESP32 create a folder below the Arduino folder named FRG-100CTL (..\Documents\Arduino\FRG-100CTL).  Then copy the file named FRG-100CTL.ini to that directory.  Open the FRG-100CTL.ino file.  The first test is does the program compile.  Click on the left arrow icon to validate the program compiles without error. 
+
+You need to tell the IDE the board type we are using.  From the Tools menu select ESP32 DevKit as the board type.
+![BoardSelection](https://github.com/user-attachments/assets/a3d07fe9-1e63-4c41-995a-d9dc83381c0b)
+
+Then select the serial port you will be using to program the board.
+![PortSelection](https://github.com/user-attachments/assets/313be652-b96e-463c-b9bb-b82ee79ddef1)
+
+And finally set your upload speed.  I use 115200 as I have had issues connecting at faster speeds.
+![UploadSpeed](https://github.com/user-attachments/assets/2859f798-eac9-4d8c-a26a-1c27efa59ef8)
+
 
 ## Display Programming
 You will need to program your Nextion display with the screen file that matches your Nextion model number.  The file contains all the screens and button actions.  To load the file copy the .tft file to a FAT32 formatted micro SD card.  It must be the only file on the SD card.  Insert the card, apply power to the board using the Nextion supplied micro USB adapter.  It will load and display a success message.  Remove power, remove the SD card and the display will be ready.
