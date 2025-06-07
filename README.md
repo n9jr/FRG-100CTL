@@ -48,6 +48,10 @@ At this point you should be able to compile and upload the sketch to the ESP32.
 
 ![Upload](https://github.com/user-attachments/assets/90560401-5ad1-449b-b6dd-2aa3bd62160c)
 
+If all gues well you should see a screen like the one below.
+
+
+![UploadSuccess](https://github.com/user-attachments/assets/e2404934-28d8-440d-ba20-37431cf9b7be)
 
 
 ## Display Programming
