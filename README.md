@@ -28,6 +28,7 @@ You will also need to add the ESP32 board and files.  These are added from the B
 
 ## Uploading the code to the ESP32DevKitV1.
 To compile the program and upload it to the ESP32 create a folder below the Arduino folder named FRG-100CTL (**..\Documents\Arduino\FRG-100CTL**).  Then copy the file named FRG-100CTL.ini to that directory.  Open the FRG-100CTL.ino file in the IDE.  The first test is does the program compile.  Click on the left check mark icon to validate the program compiles without error. 
+
 ![Compile](https://github.com/user-attachments/assets/e891efaa-f444-475c-9c5f-a7ced7a82d5a)
 
 
