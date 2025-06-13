@@ -4,7 +4,32 @@ An ESP32 based hardware controller with Nextion display for the Yaesu FRG-100 re
 ![FRG100-CTL](https://github.com/user-attachments/assets/46b08680-8708-494b-9c8a-1ac31a9b92f1)
 
 
-This is a controller for the Yaesu FRG-100 receiver.  As a stand alone radio I felt it lacked frequency agility, and this controller provides that functionality.
+This is a controller for the Yaesu FRG-100 receiver.  As a stand alone radio I felt it lacked frequency agility, and this controller provides that functionality by using the CAT capabilities of the FRG-100.
+
+The design is very simple and consists of 12 and 5 volt power supplies, an ESP32 with 2 serial ports and some bypass capacitors.  The ESP32 is a 3.3 volt device and the FRG-100 sends a 5 volt TTL serial signal.  The 3.3 volts of the ESP32 will trigger serial high on the FRG-100 but we require a voltage divider to bring the 5 volt signal down to 3.3 volts.  
+
+## Project Files
+
+There are files for programming the ESP32, firmware files for the Nextion, a schematic of the circuit and files to make a PCB.
+
+FILE	DESCRIPTION
+	
+FRG-100CTL.ino	Current FRG-100CTL Sketch (0.93)
+FRG-100CTL_v0.93.zip	Current Sketch
+FRG-100CTL_v0.92.zip	Archive of version 0.92
+NX4832F035_011.tft	Nextion Firmware 1.0 (Discovery Series)
+NX4832K035_011.tft	Nextion Firmware 1.0 (Enhanced Series)
+NX4832T035_011.tft	Nextion Firmware 1.0 (Basic Series)
+NextionFirmware_v1.0.zip	Nextion Firmware 1.0
+callTriggers.cpp	Easy Nextion Library replacement file
+trigger.h	Easy Nextion Library replacement file
+	
+FRG-100CTL_Schematic.pdf	Schematic diagram 
+FRG-100CTL_BOM.pdf	Printed circuit board Bill of Materials
+FRG-100CTL_Gerbers.zip	Gerber files to make the PCB
+
+
+
 
 ## ESP32 Programming
 ### Installing the Arduino IDE
