@@ -11,6 +11,7 @@ The design is very simple and consists of 12 and 5 volt power supplies, an ESP32
 ## Project Files
 
 There are files for programming the ESP32, firmware files for the Nextion, a schematic of the circuit and files to make a PCB.
+
 FILE				DESCRIPTION
 	
 FRG-100CTL.ino			Current FRG-100CTL Sketch (0.93)
