@@ -11,22 +11,32 @@ The design is very simple and consists of 12 and 5 volt power supplies, an ESP32
 ## Project Files
 
 There are files for programming the ESP32, firmware files for the Nextion, a schematic of the circuit and files to make a PCB.
-
-FILE	DESCRIPTION
+FILE				DESCRIPTION
 	
-FRG-100CTL.ino	Current FRG-100CTL Sketch (0.93)
-FRG-100CTL_v0.93.zip	Current Sketch
-FRG-100CTL_v0.92.zip	Archive of version 0.92
-NX4832F035_011.tft	Nextion Firmware 1.0 (Discovery Series)
-NX4832K035_011.tft	Nextion Firmware 1.0 (Enhanced Series)
-NX4832T035_011.tft	Nextion Firmware 1.0 (Basic Series)
+FRG-100CTL.ino			Current FRG-100CTL Sketch (0.93)
+	
+FRG-100CTL_v0.93.zip		Current Sketch (0.93)
+	
+FRG-100CTL_v0.92.zip		Archive of version 0.92
+	
+NX4832F035_011.tft		Nextion Firmware 1.0 (Discovery Series)
+	
+NX4832K035_011.tft		Nextion Firmware 1.0 (Enhanced Series)
+	
+NX4832T035_011.tft		Nextion Firmware 1.0 (Basic Series)
+	
 NextionFirmware_v1.0.zip	Nextion Firmware 1.0
-callTriggers.cpp	Easy Nextion Library replacement file
-trigger.h	Easy Nextion Library replacement file
+	
+callTriggers.cpp		Easy Nextion Library replacement file
+	
+trigger.h			Easy Nextion Library replacement file
 	
 FRG-100CTL_Schematic.pdf	Schematic diagram 
-FRG-100CTL_BOM.pdf	Printed circuit board Bill of Materials
-FRG-100CTL_Gerbers.zip	Gerber files to make the PCB
+	
+FRG-100CTL_BOM.pdf		Printed circuit board Bill of Materials
+	
+FRG-100CTL_Gerbers.zip		Gerber files to make the PCB
+
 
 
 
