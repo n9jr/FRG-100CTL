@@ -14,11 +14,9 @@ There are files for programming the ESP32, firmware files for the Nextion, a sch
 
 FILE				DESCRIPTION
 	
-FRG-100CTL.ino			Current FRG-100CTL Sketch (0.93)
-	
-FRG-100CTL_v0.93.zip		Current Sketch (0.93)
-	
-FRG-100CTL_v0.92.zip		Archive of version 0.92
+FRG-100CTL.ino			Current FRG-100CTL Sketch (0.94)
+
+FRG-100CTL_v0.94.ino.zip	Current Sketch (0.94)
 	
 NX4832F035_011.tft		Nextion Firmware 1.0 (Discovery Series)
 	
